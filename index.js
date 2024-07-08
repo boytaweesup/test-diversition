@@ -84,7 +84,7 @@ function checkreward() {
     } else if (number == arr[4]) {
         outputCheck.innerHTML =
             "<div class=\"alert alert-info\"><h5>ยินดีด้วย!!! คุณถูกรางวัลที่ 2  </h5> <h4> " + arr[4] + " </h4> </div> ";
-    } else if (outNum2 == num2) {
+    } else if (outNum2 == num2 || number == num2 ) {
         outputCheck.innerHTML =
             "<div class=\"alert alert-info\"><h5>ยินดีด้วย!!! คุณถูกรางวัลเลขท้าย 2 ตัว </h5> <h4> " + num2 + " </h4> </div> ";
     } else {
